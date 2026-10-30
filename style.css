@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    background-color:#ffffffe5;
+
+}
+.parent{
+width: 200px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+background-color: whitesmoke;
+border-radius: 5px;
+}
+.parent img{
+    width: 100%;
+}
+.parent .save span{
+background-color: #662489;
+color:white;
+font-size: 12px;
+padding: 3px 10px;
+display: inline-block;
+border-radius: 0 20px 20px 0;
+ margin-top: 10px;
+}
+.parent .details{
+    padding: 10px 10px;
+}
+.parent .details h3{
+    font-weight: 400;
+}
+.parent ul{
+    padding: 10px 10px 0px 25px;
+}
+.parent ul li{
+    font-size: 13px;
+    line-height: 16px;
+    color:#666666;
+}
+.parent .price{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #d51e0b;
+    border-top: 1px solid #eee;
+
+
+
+}
+.parent .price span:last-child{
+    line-height: 20px;
+    font-weight: 600;
+    color:#666666;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.parent .btn button{
+    display: block;
+    width:100%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+
+}
+.parent .btn button:first-child{
+    background-color:#3749bb25;
+}
+.parent .btn button:first-child:hover{
+    background-color:#3749bb;
+    color:#ffffffe5;
+
+}
+.parent .btn button:last-child:hover{
+    background-color: #ab979741;
+    border-radius: 10px;
+}
+.parent .details h3:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+    
